@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 body,html{
-    background-color: #5f2c82;
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
     height: 100vh;
     width: 100vw;
 }
@@ -36,7 +36,7 @@ section#login{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 
     transition: width 0.3s, height 0.3s;
-    transition-timing-function: ease;
+    transition-timing-function: ;
 }
 section#login div#imagem{
     display: block;
@@ -48,4 +48,11 @@ section#login div#imagem{
 section#login div#formulario{
     display: block;
     padding: 10px;
+}
+div#formulario h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario p{
+    font-size: 0.8em;
 }
